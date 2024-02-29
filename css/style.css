@@ -160,7 +160,7 @@ body {
 .footer {
   background: #34547a;
   color: #fff;
-  max-height: 151px;
+  /* max-height: 151px; */
 }
 
 .footer__title {
