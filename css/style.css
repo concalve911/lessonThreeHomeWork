@@ -18,42 +18,39 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   color: inherit;
+  letter-spacing: 1.6px;
 }
 
 .container {
-  max-width: 1220px;
+  max-width: 1142px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 16px;
 }
 
 body {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0em;
+  line-height: 164%;
   color: #727272;
 }
 
 .header {
   background: #eeeff1;
-  height: 700px;
 }
 
 .menu__list {
   color: #000;
-  font-weight: 500;
-}
-
-.menu__list-item {
-  display: inline-block;
-  padding-right: 42px;
-  margin-top: 79px;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  margin-bottom: 151px;
+  padding-top: 79px;
+  gap: 42px;
 }
 
 .menu__list-link {
   color: #000;
-  font-weight: 500;
   position: relative;
   transition: color 0.3s ease;
 }
@@ -64,7 +61,6 @@ body {
 
 .header__title {
   display: inline-block;
-  margin-top: 151px;
   margin-bottom: 60px;
   color: #000;
   font-size: 48px;
@@ -76,13 +72,18 @@ body {
   margin-bottom: 65px;
 }
 
+.header__btn-inner {
+  padding-bottom: 141px;
+}
+
 .header__btn {
   display: inline-block;
   padding: 19px 41px 20px;
   background-color: #34547a;
   color: #fff;
-  width: 225px;
+  min-width: 225px;
   text-align: center;
+  cursor: pointer;
 }
 
 .about-me {
@@ -96,9 +97,8 @@ body {
 .about-me__title {
   font-size: 32px;
   font-weight: 500;
-  line-height: 37.5px;
   display: inline-block;
-  margin-top: 112px;
+  padding-top: 112px;
   margin-bottom: 50px;
   color: #000;
 }
@@ -107,11 +107,6 @@ body {
   max-width: 540px;
   margin: 0 auto;
   padding-bottom: 100px;
-}
-
-.tab-images {
-  background-color: #34547a;
-  height: 250px;
 }
 
 .tab-images__list {
@@ -124,13 +119,17 @@ body {
   padding: 100px 0;
 }
 
+.tab-images {
+  background-color: #34547a;
+  height: 250px;
+}
+
 .tab-images__img {
   padding-left: 45px;
 }
 
 .video {
   background: #eeeff1;
-  height: 1004px;
 }
 
 .video__inner {
@@ -143,8 +142,7 @@ body {
 .video__title {
   font-size: 32px;
   font-weight: 500;
-  line-height: 37.5px;
-  margin-top: 100px;
+  padding-top: 100px;
   margin-bottom: 50px;
   color: #000;
 }
@@ -156,7 +154,7 @@ body {
 }
 
 .video__item {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .footer {
@@ -167,14 +165,12 @@ body {
 .footer__title {
   font-size: 21px;
   font-weight: 500;
-  line-height: 24.61px;
   padding-top: 50px;
+  margin-bottom: 20px;
 }
 
 .footer__text {
   font-size: 13px;
   font-weight: 400;
-  line-height: 21px;
   padding-bottom: 50px;
-  padding-top: 20px;
 }
