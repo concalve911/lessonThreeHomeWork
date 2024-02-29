@@ -116,12 +116,14 @@ body {
 
 .tab-images__list {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+}
+
+.tab-images__item {
+  padding: 100px 0;
 }
 
 .tab-images__img {
-  margin: 100px 0;
+  padding-left: 45px;
 }
 
 .video {
@@ -147,7 +149,7 @@ body {
 
 .video__text {
   max-width: 540px;
-  padding-bottom: 57px;
+  margin-bottom: 57px;
   text-align: center;
 }
 
