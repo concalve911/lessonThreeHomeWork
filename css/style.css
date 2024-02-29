@@ -116,6 +116,8 @@ body {
 
 .tab-images__list {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tab-images__item {
