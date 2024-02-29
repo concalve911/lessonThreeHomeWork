@@ -160,11 +160,9 @@ body {
 .footer {
   background: #34547a;
   color: #fff;
-  /* max-height: 151px; */
 }
 
 .footer__title {
-  /* display: inline-block; */
   font-size: 21px;
   font-weight: 500;
   line-height: 24.61px;
@@ -172,7 +170,6 @@ body {
 }
 
 .footer__text {
-  /* display: inline-block; */
   font-size: 13px;
   font-weight: 400;
   line-height: 21px;
